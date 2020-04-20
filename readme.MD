@@ -45,5 +45,24 @@ Set following Cmake variables:
 - **OBS_FRONTEND_LIB** (filepath): obs-frontend-api.lib path
 - **PTHREAD_LIB** (filepath): w32-pthread.lib path
 
+# Linux
+[Obs-v4l2sink](https://github.com/CatxFish/obs-v4l2sink) is a Linux alternative. Any issues regarding this one should be posted over (there.)[https://github.com/CatxFish/obs-v4l2sink/issues]
+
+# Troubleshooting
+* VirtualCam not showing up in Tools.
+  * Might be due to wrong folder look up during installation. Use the manual install and paste the folders from the compresed archive to OBS-studio folder.
+* Output displays a grey screen.
+  * Try to adjust OBS video output settings to 1920x1080 or 1080x720.
+* not showing up in Zoom, Skype etc.
+  * Zoom: If the above doesn't work, try using older version of Zoom or path (likk to #issue).
+  * Skype from Microsoft store has issues (link to #issue). Install Skype Desktop.
+* Dropped frames.
+  * Get a stronger pc, or increase the buffer.
+
+# Known issues
+* Horizontal flip setting might crash OBS
+* Installer some times installs in wrong path _(needs further investigation, anything to due with new redistributable?)
+* Too many duplicate issues posted. It's a mess.
+
 # Donate
 If you like my work on this plugin , you can donate via [Paypal.me](https://www.paypal.me/obsvirtualcam)
